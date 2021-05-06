@@ -653,7 +653,10 @@ a {
     font-weight: 400;
     color: #575757!important;
 }
-
+.blockquote p {
+    font-size: 1.3em;
+    font-style: italic;
+}
 .container {
     max-width: 1000px;
 }
