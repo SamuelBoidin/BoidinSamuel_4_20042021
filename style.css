@@ -657,6 +657,9 @@ a {
     font-size: 1.3em;
     font-style: italic;
 }
+figcaption {
+    color: #212121;
+}
 .container {
     max-width: 1000px;
 }
