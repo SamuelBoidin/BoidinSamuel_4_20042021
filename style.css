@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    width: 100%;
     background: #FFF;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
@@ -89,11 +90,10 @@ a:hover {
     left: 0;
     right: 0;
 }
-
-.texture-paper::before {
-    background: url("img/texture-paper.png");
+    .texture-paper::before {
     background-size: 280px 280px;
 }
+
 
 .b-parallax {
     background-attachment: fixed;
@@ -882,6 +882,9 @@ h4 {
     #hero-bloc {
         overflow-x: hidden;
         position: relative;
+        margin: 0;
+        width: 100%;
+       
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -898,6 +901,8 @@ h4 {
     .page-container {
         overflow-x: hidden;
         position: relative;
+        margin: 0;
+        width: 100%;
     }
     h1,
     h2,
